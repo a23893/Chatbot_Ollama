@@ -104,6 +104,7 @@ Invoke-RestMethod -Uri "http://127.0.0.1:5000/chat" -Method POST -Headers $heade
 
 ## Estrutura da API 
 
+```plaintext
 Chatbot_Ollama/
 │── app/
 │   ├── __init__.py
@@ -114,6 +115,7 @@ Chatbot_Ollama/
 │   └── routes.py
 │
 │── main.py
+```
 
 ---
 
